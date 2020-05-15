@@ -50,7 +50,7 @@ section.nav-wrapper {
   z-index: 10;
 }
 
-nav {
+.nav {
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -59,12 +59,12 @@ nav {
   height: 5rem;
 }
 
-nav .logo-wrapper {
+.nav .logo-wrapper {
   width: 100%;
   max-width: 40rem;
 }
 
-nav .logo-wrapper img {
+.nav .logo-wrapper img {
   width: 40rem;
   display: inline-block;
   position: relative;
@@ -72,7 +72,7 @@ nav .logo-wrapper img {
   transform: translateY(-50%);
 }
 
-nav .nav-items-wrapper {
+.nav .nav-items-wrapper {
   width: auto;
   display: flex;
   justify-content: space-between;
@@ -80,7 +80,7 @@ nav .nav-items-wrapper {
   margin-left: 8rem;
 }
 
-nav .nav-item {
+.nav .nav-item {
   list-style-type: none;
   width: auto;
   display: flex;
@@ -92,21 +92,21 @@ nav .nav-item {
   text-decoration: none;
 }
 
-nav .nav-item .fas {
+.nav .nav-item .fas {
   font-size: 2.6rem;
 }
 
-nav .nav-item .title {
+.nav .nav-item .title {
   color: #363636;
   padding-left: 1rem;
   font-size: 2rem;
   white-space: nowrap;
 }
 
-nav .nav-item:hover, 
-nav .nav-item:focus,
-nav .nav-item:hover .title, 
-nav .nav-item:focus .title {
+.nav .nav-item:hover, 
+.nav .nav-item:focus,
+.nav .nav-item:hover .title, 
+.nav .nav-item:focus .title {
   color: #4a931e;
 }
 
@@ -245,6 +245,14 @@ nav .nav-item:focus .title {
   border-radius: .4rem;
   color: #363636;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  opacity: .8;
+}
+
+.contact-form input:hover,
+.contact-form input:focus,
+.contact-form textarea:hover, 
+.contact-form textarea:focus {
+  opacity: 1;
 }
 
 .contact-form .btn {
@@ -256,6 +264,11 @@ nav .nav-item:focus .title {
   width: 100%;
   cursor: pointer;
 }
+
+.contact-form .btn:hover, 
+.contact-form .btn:focus {
+  background-color: #3636369c;
+} 
 
 .map {
   width: 100% !important;
@@ -323,30 +336,30 @@ footer span {
     padding-top: 6rem;
   }
   
-  nav {
+  .nav {
     flex-direction: column;
     max-width: 100%;
     margin: 1.6rem auto 2rem;
     height: 9rem;
   }
 
-  nav .logo-wrapper {
+  .nav .logo-wrapper {
     text-align: center;
   }
 
-  nav .logo-wrapper img {
+  .nav .logo-wrapper img {
     width: 34rem;
     top: initial;
     transform: none;
   }
 
-  nav .nav-items-wrapper {
+  .nav .nav-items-wrapper {
     margin: 0;
     justify-content: center;
     margin-top: .4rem;
   }
 
-  nav .nav-items-wrapper .title {
+  .nav .nav-items-wrapper .title {
     display: none;
   }
 
