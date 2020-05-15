@@ -325,16 +325,17 @@ footer span {
     flex-direction: column;
     max-width: 100%;
     margin: 1.6rem auto 2rem;
-    height: 11rem;
+    height: 9rem;
   }
 
   nav .logo-wrapper {
     text-align: center;
-    margin-top: 2rem;
   }
 
   nav .logo-wrapper img {
     width: 34rem;
+    top: initial;
+    transform: none;
   }
 
   nav .nav-items-wrapper {
@@ -348,7 +349,7 @@ footer span {
   }
 
   .slick-slider-wrapper {
-    margin-top: 14.6rem;
+    margin-top: 12.6rem;
     padding: 9rem 0 6rem;
   }
 
