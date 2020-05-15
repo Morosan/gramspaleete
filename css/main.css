@@ -250,10 +250,11 @@ nav .nav-item:focus .title {
 .contact-form .btn {
   background-color: #363636;
   color: white;
-  border-radius: .4rem;
+  border-radius: 4px !important;
   font-size: 2.2rem;
   font-weight: bold;
   width: 100%;
+  cursor: pointer;
 }
 
 .map {
