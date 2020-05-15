@@ -193,6 +193,8 @@ section.nav-wrapper {
 .product-item img {
   width: auto;
   max-width: 100%;
+  max-height: 45rem;
+  display: inline-block;
 }
 
 .contact-items {
