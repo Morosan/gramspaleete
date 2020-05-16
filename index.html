@@ -49,22 +49,28 @@
     <div class="slick-slider">
       <div class="variable slider autoplay">
         <div>
-          <img src="http://placehold.it/350x300?text=1">
+          <img src="img/slider/1.png">
         </div>
         <div>
-          <img src="http://placehold.it/350x300?text=2">
+          <img src="img/slider/2.png">
         </div>
         <div>
-          <img src="http://placehold.it/350x300?text=3">
+          <img src="img/slider/3.png">
         </div>
         <div>
-          <img src="http://placehold.it/350x300?text=4">
+          <img src="img/slider/4.png">
         </div>
         <div>
-          <img src="http://placehold.it/350x300?text=5">
+          <img src="img/slider/5.png">
         </div>
         <div>
-          <img src="http://placehold.it/350x300?text=6">
+          <img src="img/slider/6.png">
+        </div>
+        <div>
+          <img src="img/slider/7.png">
+        </div>
+        <div>
+          <img src="img/slider/8.png">
         </div>
       </div>
     </div>
@@ -73,7 +79,7 @@
   <section id="about-us-section" class="about-us-wrapper">
     <div class="about-us">
       <h1>Despre noi</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod unde explicabo, velit vitae dolorum quidem architecto, veniam distinctio et porro laborum aliquid eaque voluptate totam sit dolorem deleniti in quisquam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi praesentium ipsam nobis voluptatem soluta autem vel voluptatum cupiditate delectus cumque rerum fugit, non mollitia, voluptas laboriosam ab. Cupiditate, debitis tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione quasi ex esse rem sapiente repellat officiis asperiores nesciunt iure quam, non incidunt nemo ea voluptatum quis amet? Illum, maiores.</p>
+      <p>Societatea comerciala GRAMS PALEETE SRL a fost infiintata in anul 2014. Scopul nostru principal este producerea si comercializarea de paleti din lemn de fag si brad de diferite tipuri si dimensiuni (paleti industriali, paleti non euro, paleti atipici si paleti personalizati in functie de dimensiunile cerute de catre partenerii nostrii. De asemenea firma noastra va poate pune la dispozitie lemne de foc de fag si brad si lemne de foc paletizat.</p>
     </div>
   </section>
 
@@ -83,7 +89,7 @@
       <div class="products-list">
         <div class="product-item">
           <h3 class="title">Paleti 800x1200</h3>
-          <img src="img/800x1200.png" alt="800x1200">
+          <img id="myImg" src="img/800x1200.png" alt="800x1200">
         </div>
         <div class="product-item">
           <h3 class="title">Paleti 800x2000</h3>
@@ -99,7 +105,7 @@
         </div>
       </div>
       <h1>Alte produse</h1>
-      <div class="product-list">
+      <div class="products-list">
         <div class="product-item">
           <h3 class="title">Lemne de foc</h3>
           <img src="img/lemne-foc.png" alt="Lemne de foc">
@@ -111,6 +117,13 @@
       </div>
     </div>
   </section>
+
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
   
   <section id="contact-section" class="contact-wrapper">
     <div class="contact">
@@ -121,30 +134,31 @@
             <span class="fas fa-envelope"></span>
             <h3 class="email-title">E-MAIL:</h3>
           </div>
-          <span class="email">gramspaleete@gmail.com</span>
+          <span class="email">gramspaleete@yahoo.com</span>
           <div class="phone-description">
             <span class="fas fa-phone"></span>
             <h3 class="phone-title">TELEFON:</h3>
           </div>
-          <span class="phone">0755829425</span>
+          <span class="phone">0742516506</span>
+          <span class="phone">0744628466</span>
           <div class="adress-description">
             <span class="fas fa-map-marker-alt"></span>
             <h3 class="adress-title">ADRESA:</h3>
           </div>
-          <span class="adress">Calea Bucovinei 119, Câmpulung Moldovenesc 725100</span>
+          <span class="adress">Str. Stefan cel Mare 102, Molid, Suceava</span>
         </div>
         <div class="contact-form">
           <form  action="https://formspree.io/xoqkvzgn" method="POST">
             <input type="text" name="name" placeholder="Nume si prenume" required>
             <input type="email" name="_replyto" placeholder="Adresa E-mail" required>
-            <input type="tel" name="telephone" placeholder="Telefon" required>
+            <input type="tel" name="telephone" placeholder="Telefon">
             <textarea rows="8" name="message" cols="2" placeholder="Mesaj" required></textarea>
             <input type="submit" class="btn" value="Trimite">
           </form>
         </div>
       </div>
       <div class="map-wrapper">
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3423.85192615584!2d25.573361366101857!3d47.52538647202007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4735b95e6a1e3295%3A0x135a65b86c9f42c2!2sCalea%20Bucovinei%20119%2C%20C%C3%A2mpulung%20Moldovenesc%20725100!5e1!3m2!1sen!2sro!4v1589125156051!5m2!1sen!2sro" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13282.402418507689!2d25.875997007425635!3d47.54935089296242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4735a8d2bd2c17b3%3A0x225f4bc8d49b1c83!2sStrada%20%C8%98tefan%20cel%20Mare%20102%2C%20Gura%20Humorului%20725300!5e1!3m2!1sen!2sro!4v1589659719178!5m2!1sen!2sro" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
     </div>
   </section>

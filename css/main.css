@@ -116,6 +116,11 @@ section.nav-wrapper {
   margin-right: auto;
 }
 
+.slider img {
+  max-height: 40rem;
+  width: auto;
+}
+
 .slick-prev,
 .slick-next {
   width: 4rem !important;
@@ -178,10 +183,14 @@ section.nav-wrapper {
 
 .product-item {
   width: 100%;
-  max-width: 50rem;
+  max-width: 25%;
   padding: 3rem 2rem;
   border-radius: 0.8rem;
 }
+
+.products-list+h1 {
+  margin-top: 5rem;
+} 
 
 .product-item .title {
   margin-bottom: 1rem;
@@ -193,7 +202,7 @@ section.nav-wrapper {
 .product-item img {
   width: auto;
   max-width: 100%;
-  max-height: 45rem;
+  max-height: 35rem;
   display: inline-block;
 }
 
@@ -209,6 +218,10 @@ section.nav-wrapper {
   flex-direction: column;
 }
 
+.informations-wrapper span {
+  font-size: 1.6rem;
+}
+
 .informations-wrapper span,
 .informations-wrapper h3 {
   color: #363636;
@@ -221,10 +234,18 @@ section.nav-wrapper {
 }
 
 .email,
-.phone,
 .adress {
   margin-bottom: 2rem;
 }
+
+.phone {
+  margin-bottom: 1rem;
+}
+
+.phone+.phone {
+  margin-bottom: 2rem;
+}
+
 
 .contact-form {
   width: 50%;
@@ -269,7 +290,7 @@ section.nav-wrapper {
 
 .contact-form .btn:hover, 
 .contact-form .btn:focus {
-  background-color: #3636369c;
+  background-color: #1d1d1d;
 } 
 
 .map {
