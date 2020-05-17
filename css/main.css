@@ -10,6 +10,10 @@ html {
   background-color: #f2f2f2;
 }
 
+body {
+  position: relative;
+}
+
 h1,
 .h1,
 h2,
@@ -396,14 +400,23 @@ footer span {
     display: none !important;
   }
 
+  .slider img {
+    max-height: 38rem;
+  }
+
   .about-us,
   .products-type,
   .contact {
     padding: 4rem 3rem;
   }
 
+  .products-list {
+    flex-direction: column;
+  }
+
   .product-item {
     width: 100%;
+    max-width: 100%;
     padding: 2rem 0rem;
   }
 
