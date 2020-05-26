@@ -341,11 +341,6 @@ footer span {
   text-decoration: none;
 }
 
-.show-focus-outlines .slick-slider button:focus {
-  outline: .2rem solid #ffffff;
-  text-decoration: none;
-}
-
 .show-focus-outlines .slick-slider .slick-slide.slick-current {
   outline: .2rem solid #ffffff;
   outline-offset: -0.2rem;
