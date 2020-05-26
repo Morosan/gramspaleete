@@ -334,6 +334,31 @@ footer span {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+/* Focus Outlines */
+.show-focus-outlines .nav a:focus {
+  outline: .2rem solid #639d25;
+  outline-offset: .4rem;
+  text-decoration: none;
+}
+
+.show-focus-outlines .slick-slider button:focus {
+  outline: .2rem solid #ffffff;
+  text-decoration: none;
+}
+
+.show-focus-outlines .slick-slider .slick-slide.slick-current {
+  outline: .2rem solid #ffffff;
+  outline-offset: -0.2rem;
+  text-decoration: none;
+} 
+
+.show-focus-outlines .contact input:focus,
+.show-focus-outlines .contact textarea:focus {
+  outline: .2rem solid #ffffff;
+  outline-offset: .4rem;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 768px) {
   h1,
   .h1,

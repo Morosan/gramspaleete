@@ -22,6 +22,17 @@ $(document).ready(function(){
     }, 500);
   });
 
+  // ADA Tab
+  $(document).on('keydown', function (e) {
+      if(e.keyCode == 9) {
+          $('body').addClass('show-focus-outlines');
+      }
+  });
+
+  $(document).on('click', function (e) {
+      $('body').removeClass('show-focus-outlines');
+  });
+
   // Copyright current year
   document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 });
