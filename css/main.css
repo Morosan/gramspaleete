@@ -20,13 +20,13 @@ h2,
 .h2,
 h3,
 .h3 {
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 h2,
 .h2 {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
 }
 
 h3,
@@ -165,7 +165,7 @@ section.nav-wrapper {
   background-color: white;
 }
 
-.about-us h1 {
+.about-us h2 {
   margin-bottom: 2rem;
 }
 
@@ -173,7 +173,7 @@ section.nav-wrapper {
   color: #363636;
 }
 
-.products-type h1 {
+.products-type h2 {
   margin-bottom: 2rem;
 }
 
@@ -192,7 +192,7 @@ section.nav-wrapper {
   border-radius: 0.8rem;
 }
 
-.products-list+h1 {
+.products-list+h2 {
   margin-top: 5rem;
 } 
 
@@ -341,12 +341,12 @@ footer span {
   .h2,
   h3,
   .h3 {
-    font-size: 3.4rem;
+    font-size: 3.8rem;
   }
 
   h2,
   .h2 {
-    font-size: 2.6rem;
+    font-size: 3.4rem;
   }
 
   h3,
