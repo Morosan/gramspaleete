@@ -392,6 +392,7 @@ footer span {
 
   .nav .logo-wrapper {
     text-align: center;
+    margin: 0 auto;
   }
 
   .nav .logo-wrapper img {
